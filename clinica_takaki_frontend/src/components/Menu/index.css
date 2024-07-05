@@ -1,0 +1,72 @@
+
+nav{
+    width: 20%;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerNav{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyNav{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyNav ul{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.bodyNav ul li {
+    width: 75%;
+    height: 40px;
+    padding: 0; /* Removido o padding do li */
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.bodyNav ul li a {
+    width: 100%;
+    height: 100%; /* Define a altura do a para 100% do li */
+    padding: 15px; /* Adicionado o padding para o a */
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 5px; /* Adicionado o border-radius para o a */
+}
+
+ul li i{
+    margin-right: 10px;
+}
+
+.active{
+    background-color: #879FFF;
+    color: white !important;
+}
+
+/* background-color: #879FFF; */
+/*  */
