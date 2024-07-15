@@ -16,7 +16,7 @@
 
 
 ### Descrição do projeto
-* Projeto criado para ser o front end da <a href="" target="_blank">API Restfull</a> desenvolvida em Node.JS, API que criei para o controle de procedimentos,clientes e faturamentos da clínica da minha irmã Dra Bianca.
+* Projeto criado para ser o front end da <a href="https://github.com/OtavioCollere/restfull-api" target="_blank">API Restfull</a> desenvolvida em Node.JS, API que criei para o controle de procedimentos,clientes e faturamentos da clínica da minha irmã Dra Bianca.
 
 Neste projeto fiz a estrutura com components/pages onde cada componente tem uma pasta especifica com o index.tsx + index.css, com toda sua navegação controlada pelo React-Router-Dom
 
